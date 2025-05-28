@@ -1,0 +1,11 @@
+symbols:
+  - AAPL
+  - TSLA
+
+rate_limit:
+  seconds_between_requests: 10
+
+calendar:
+  exchange: NYSE  # supports pandas_market_calendars name (e.g., NYSE, CME, etc.)
+
+log_level: INFO 
